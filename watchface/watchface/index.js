@@ -22,6 +22,7 @@
         let normal_background_bg_img = ''
         let editBg = ''
         let normal_step_current_text_img = ''
+        let idle_step_current_text_img = ''
         let normal_digital_clock_img_time = ''
         let idle_digital_clock_img_time = ''
 
@@ -58,6 +59,17 @@
               align_h: hmUI.align.CENTER_H,
               type: hmUI.data_type.STEP,
               show_level: hmUI.show_level.ONLY_NORMAL,
+            });
+            
+            idle_step_current_text_img = hmUI.createWidget(hmUI.widget.TEXT_IMG, {
+              x: 24,
+              y: 300,
+              font_array: ["small_00.png","small_01.png","small_02.png","small_03.png","small_04.png","small_05.png","small_06.png","small_07.png","small_08.png","small_09.png"],
+              padding: true,
+              h_space: 0,
+              align_h: hmUI.align.CENTER_H,
+              type: hmUI.data_type.STEP,
+              show_level: hmUI.show_level.ONLY_AOD,
             });
 
             normal_digital_clock_img_time = hmUI.createWidget(hmUI.widget.IMG_TIME, {

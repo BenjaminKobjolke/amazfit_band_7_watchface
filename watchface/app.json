@@ -2,7 +2,7 @@
   "configVersion": "v1",
   "app": {
     "appId": 6405958,
-    "appName": "Line",
+    "appName": "BKWatchface",
     "appType": "watchface",
     "version": {
       "code": 1,
@@ -12,9 +12,7 @@
     "vender": "huami",
     "description": "息屏表盘2"
   },
-  "permissions": [
-    "gps"
-  ],
+  "permissions": ["gps"],
   "runtime": {
     "apiVersion": {
       "compatible": "1.0.0",
@@ -23,18 +21,12 @@
     }
   },
   "device": {
-    "targets": [
-      "gts"
-    ],
-    "platforms": [
-      "nxp"
-    ]
+    "targets": ["gts"],
+    "platforms": ["nxp"]
   },
   "module": {
     "page": {
-      "pages": [
-        "pages/index"
-      ],
+      "pages": ["pages/index"],
       "window": {
         "navigationBarBackgroundColor": "#ffffff",
         "navigationBarTextStyle": "black",
@@ -44,9 +36,7 @@
       }
     },
     "app-widget": {
-      "widgets": [
-        "app-widget/index"
-      ]
+      "widgets": ["app-widget/index"]
     },
     "watch-widget": {
       "widgets": []
@@ -71,4 +61,3 @@
   },
   "defaultLanguage": "en-US"
 }
-  
