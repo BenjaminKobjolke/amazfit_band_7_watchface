@@ -96,14 +96,14 @@
             idle_digital_clock_img_time = hmUI.createWidget(hmUI.widget.IMG_TIME, {
               hour_startX: 36,
               hour_startY: 38,
-              hour_array: ["time_00.png","time_01.png","time_02.png","time_03.png","time_04.png","time_05.png","time_06.png","time_07.png","time_08.png","time_09.png"],
+              hour_array: ["time_00_idle.png","time_01_idle.png","time_02_idle.png","time_03_idle.png","time_04_idle.png","time_05_idle.png","time_06_idle.png","time_07_idle.png","time_08_idle.png","time_09_idle.png"],
               hour_zero: 1,
               hour_space: 5,
               hour_align: hmUI.align.LEFT,
 
               minute_startX: 36,
               minute_startY: 126,
-              minute_array: ["time_00.png","time_01.png","time_02.png","time_03.png","time_04.png","time_05.png","time_06.png","time_07.png","time_08.png","time_09.png"],
+              minute_array: ["time_00_idle.png","time_01_idle.png","time_02_idle.png","time_03_idle.png","time_04_idle.png","time_05_idle.png","time_06_idle.png","time_07_idle.png","time_08_idle.png","time_09_idle.png"],
               minute_zero: 1,
               minute_space: 5,
               minute_follow: 0,
